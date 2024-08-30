@@ -1,108 +1,70 @@
-<!-- TABLE OF CONTENTS -->
+# Getting Started with Create React App
 
-# 📗 Table of Contents
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [👥 Authors](#authors)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📩 Support & Feedback](#support)
-- [📝 License](#license)
+## Available Scripts
 
-<!-- PROJECT DESCRIPTION -->
+In the project directory, you can run:
 
-# 📖 About This Project <a name="about-project"></a>
+### `npm start`
 
-> Calculator-React is a project developed using React.js and styled with TailwindCSS for a cleaner and more attractive codebase. It features a simple calculator built with React.js. You can either download the project or view the sample images to get a better understanding of its design and functionality.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Sample Of Website <a name="Sample-Of-Website"></a>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![alt text](./sample/1.png)
-![alt text](./sample/2.png)
+### `npm test`
 
-## 🛠 Built With <a name="built-with"></a>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Tech Stack <a name="tech-stack"></a>
+### `npm run build`
 
-<details>
-  <summary>Client</summary>
-  <ul>
-  <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
-  <li><a href="https://tailwindcss.com/">Tailwindcss</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
-  <li><a href="https://react.dev/">React</a></li>
- <li><a href="https://prettier.io/">Prettier</a></li>
-  </ul>
-</details>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<!-- Features -->
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Key Features <a name="key-features"></a>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **[FRONTEND ]**
-- **[HTML ]**
-- **[TAILWIND ]**
-- **[JAVASCRIPT ]**
-- **[REACT ]**
-- **[TOOLS ]**
-- **[PRETTIER ]**
+### `npm run eject`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<!-- AUTHORS -->
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 👥 Authors <a name="authors"></a>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-👤 **Author1**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- GitHub: [@Ameer2000Mzori](https://github.com/Ameer2000Mzori)
-- LinkedIn: [Ameer Ameen](https://www.linkedin.com/in/ameer-ameen-82314425b/)
+## Learn More
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<!-- CONTRIBUTING -->
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 🤝 Contributing <a name="contributing"></a>
+### Code Splitting
 
-Contributions, issues, and feature requests are welcome! please dont forget to contact ameerapex496@gmail.com
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Feel free to check the [issues page](../../issues/).
+### Analyzing the Bundle Size
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-<!-- SUPPORT -->
+### Making a Progressive Web App
 
-## ⭐️ Show your support <a name="support"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-If you like this project, don't hesitate to give it a star 😊.
+### Advanced Configuration
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-<!-- ACKNOWLEDGEMENTS -->
+### Deployment
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### `npm run build` fails to minify
 
-<!-- Support and feedback -->
-
-## 📩 Support & Feedback <a name="support"></a>
-
-If you have any feedback, please reach out to me at ameerapex496@gmail.com 📨
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
