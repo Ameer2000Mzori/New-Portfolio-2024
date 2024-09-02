@@ -63,7 +63,7 @@ function Navbar() {
       {/* on small devices this will show */}
 
       <div
-        className={`h-[100dvh] w-[100dvw] lg:hidden pt-[38px] bg-gradient-to-b  text-black px-[40px] from-[#f5f5f5] to-[#0000007c] top-0 left-0 z-10 flex flex-col absolute ${
+        className={`h-[100dvh] w-[100dvw] lg:hidden pt-[38px] bg-gradient-to-b  text-black px-[40px] from-[#f5f5f5] to-[#000000e0] top-0 left-0 z-10 flex flex-col absolute ${
           showMenu ? "flex" : "hidden"
         }`}
       >
