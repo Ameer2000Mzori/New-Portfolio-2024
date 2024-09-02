@@ -18,7 +18,10 @@ export default function ExpertisePage() {
       <div className="flex flex-row flex-wrap w-[80%] gap-[24px] text-center items-center justify-center">
         {expertiseExperienceData.map((el, i) => {
           return (
-            <div className=" mb-[32px] w-[316px] h-[170px] flex flex-col text-center items-center justify-center ">
+            <div
+              key={i}
+              className=" mb-[32px] w-[316px] h-[170px] flex flex-col text-center items-center justify-center "
+            >
               <div className="w-[40px] h-[40px]">
                 <img
                   className="w-[32px] h-[32px] mb-[20px] "

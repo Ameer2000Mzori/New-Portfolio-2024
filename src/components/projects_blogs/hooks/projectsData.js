@@ -22,6 +22,7 @@ export const projectsData = [
       "Bankist-Complete is a sleek website built with HTML, SCSS, and JavaScript. Easily create, log in, delete accounts, transfer money to predefined users, and make money requests. Experience automatic logout for added security when 10 min countdown finishes . Explore the live demo for a hands-on preview.",
     technologies: ["html", "css", "scss", "js"],
     img: BankistImg,
+    url: "https://github.com/Ameer2000Mzori/Bankist-Complete",
   },
   {
     title: "Shop Sprint",
@@ -30,6 +31,7 @@ export const projectsData = [
       "ShopSprint is one of the major websites I've developed using the MERN stack, incorporating the latest packages and technologies. Feel free to explore and download the project to see it in action.",
     technologies: ["react.js", "node.js", "mongodb", "express.js"],
     img: ShopsPrint,
+    url: "https://github.com/Ameer2000Mzori/ShopSprint",
   },
   {
     title: "frontend case",
@@ -38,6 +40,7 @@ export const projectsData = [
       "The company 2DIGITS would like a new website where their customers can see their latest blog posts. To this end, Social Brothers created a design to match the client's requirements.",
     technologies: ["next.js", "tailwind.css", "graphql", "prepr"],
     img: FrontendcaseImg,
+    url: "https://github.com/Ameer2000Mzori/frontend-case",
   },
   {
     title: "Talent Portal",
@@ -46,6 +49,7 @@ export const projectsData = [
       "TalentPortal is a website created with Next.js 14, styled with Tailwind CSS, and developed using TypeScript. It utilizes JSON Server for data management. This project serves as a showcase for a job interview.",
     technologies: ["next.js", "Typescript", "tailwind.css"],
     img: TalentPortal,
+    url: "https://github.com/Ameer2000Mzori/TalentPortal",
   },
   {
     title: "Mono Text",
@@ -60,6 +64,7 @@ export const projectsData = [
       "express.js",
     ],
     img: MonoText,
+    url: "https://github.com/Ameer2000Mzori/MonoText-Mern",
   },
   {
     title: "Steps Master",
@@ -68,5 +73,6 @@ export const projectsData = [
       "StepsMaster is an application created with ReactNative with help of (Ionic) and nativewind . It will be available soon on Iphone and Samsung",
     technologies: ["react native", "javascript", "ionic", "nativewind"],
     img: StepsMaster,
+    url: "https://github.com/Ameer2000Mzori/StepsMaster",
   },
 ];
