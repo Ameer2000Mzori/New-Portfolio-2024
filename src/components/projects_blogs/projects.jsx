@@ -82,7 +82,7 @@ export default function ProjectsPage() {
                   }}
                   className=" hover:bg-green-900  bg-[#00dc93] font-baloo font-bold  px-[15px] py-[3px] rounded-[5px]"
                 >
-                  details
+                  more details
                 </div>
               </div>
             </div>
