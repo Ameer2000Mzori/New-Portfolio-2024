@@ -5,8 +5,8 @@ export default function App() {
   return (
     <div className="bg-darkBgColor overflow-hidden">
       <HeroPage />
-      <StatsPage />
       <ExpertisePage />
+      <StatsPage />
     </div>
   );
 }

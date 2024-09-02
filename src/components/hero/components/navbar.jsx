@@ -7,7 +7,7 @@ function Navbar() {
   const [showMenu, setShowMenu] = React.useState(false);
 
   return (
-    <div className="text-white px-[40px] py-[48px] flex flex-row  justify-between  bg-gradient-to-b  from-[#000000] to-[#ffffff00]">
+    <div className="text-textColors px-[40px] py-[48px] flex flex-row  justify-between  bg-gradient-to-b  from-[#000000] to-[#ffffff00]">
       <div className="">
         <h1 className="font-baloo font-bold lg:text-[30px] sm:text-[28px] sx:text-[22px] ">
           Ameen Portfolio
@@ -30,7 +30,7 @@ function Navbar() {
                 <img
                   src={el.icon}
                   alt={el.lebal}
-                  className="border-x-white w-[32px] h-[32px] "
+                  className="border-x-textColors w-[32px] h-[32px] "
                 />
                 <p className="font-baloo font-bold text-[14px] ">{el.lebal}</p>
               </li>
