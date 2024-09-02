@@ -17,7 +17,7 @@ function HeroTitle() {
           <li>
             <h1>Websites</h1>
           </li>
-          <div className="h-[6px] w-[6px]  rounded-full bg-[#00dc93]"></div>
+          <div className=" text-[#00dc93]"> & </div>
           <li>
             <h1>Applications</h1>
           </li>
