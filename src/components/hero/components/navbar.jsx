@@ -18,7 +18,7 @@ function Navbar() {
         {NavData.map((el, index) => {
           return (
             <a
-              className="active:text-slate-300"
+              className="active:text-slate-300  hover:text-slate-400"
               href={`${el.path}`}
               key={index}
             >
@@ -32,7 +32,7 @@ function Navbar() {
                   alt={el.lebal}
                   className="border-x-white w-[32px] h-[32px] "
                 />
-                <p className="font-baloo font-bold text-[14px]">{el.lebal}</p>
+                <p className="font-baloo font-bold text-[14px] ">{el.lebal}</p>
               </li>
             </a>
           );
@@ -75,7 +75,7 @@ function Navbar() {
             <a
               href={`${el.path}`}
               key={index}
-              className=" mt-[15px] border-b border-black pb-[5px] "
+              className="  mt-[15px] border-b border-black pb-[5px] "
             >
               <li
                 className={`flex flex-row  tex-start w-[100%] items-center justify-start  gap-[15px] `}
@@ -116,7 +116,7 @@ function Navbar() {
           href="https://www.linkedin.com/in/mohammed-ameen-82314425b/"
           target="_blank"
           rel="noreferrer"
-          className=" active:text-blue-300 px-[6px] py-[6px]  text-white border-r-2 border-white font-bold font-baloo text-[14px]"
+          className=" active:text-blue-300 px-[6px] py-[6px] hover:text-slate-400  text-white border-r-2 border-white font-bold font-baloo text-[14px]"
         >
           Linkdin
         </a>
@@ -124,7 +124,7 @@ function Navbar() {
           href="https://github.com/Ameer2000Mzori"
           target="_blank"
           rel="noreferrer"
-          className=" active:text-blue-300 px-[6px] py-[6px]  text-white font-bold font-baloo text-[14px]"
+          className=" active:text-blue-300 px-[6px] py-[6px] hover:text-slate-400  text-white font-bold font-baloo text-[14px]"
         >
           Github
         </a>
