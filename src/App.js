@@ -1,13 +1,11 @@
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Hero from "./components/hero/";
 
 export default function App() {
   return (
-    <>
-      <h1 className="text-3xl xs:text-[16px] sm:text-[40px] font-bold underline font-baloo">
-        Hello world!
-      </h1>
-      <FontAwesomeIcon icon={faCoffee} />
-    </>
+    <div className="h-[100%dvh]">
+      <Hero />
+    </div>
   );
 }
