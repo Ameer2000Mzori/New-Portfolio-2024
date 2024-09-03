@@ -7,7 +7,10 @@ export default function ProjectsPage() {
   const [proWasSelected, setProWasSelected] = React.useState(false);
 
   return (
-    <div className="mt-[32px]  mb-[64px] flex flex-col text-center items-center justify-center">
+    <div
+      id="PROJECTS"
+      className="mt-[32px]  mb-[64px] flex flex-col text-center items-center justify-center"
+    >
       <div className="w-[60%] h-[1px] bg-borderBetweenColors mt-[15px] mb-[35px]"></div>
       <div className=" mb-[44px]">
         <h1 className="mb-[16px] text-upperTitleColor leading-[28px] text-[18px] font-bold font-baloo">

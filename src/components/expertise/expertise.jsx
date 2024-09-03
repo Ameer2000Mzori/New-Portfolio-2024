@@ -6,7 +6,10 @@ import {
 
 export default function ExpertisePage() {
   return (
-    <div className="mt-[64px] w-[100dvw] flex flex-col text-center items-center justify-center">
+    <div
+      id="EXPERTISE"
+      className="mt-[64px] w-[100dvw] flex flex-col text-center items-center justify-center"
+    >
       <div className="mb-[44px]">
         <h1 className="text-upperTitleColor text-[18px] font-bold font-baloo">
           {expertiseTitleData[0].title}

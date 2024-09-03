@@ -4,7 +4,9 @@ function ArrowDown() {
   return (
     <div className="w-[100dvw] flex flex-col text-center items-center justify-center">
       <a
-        href="/"
+        target="_blank"
+        rel="noreferrer"
+        href="https://drive.google.com/file/d/1QrlLgsgFs858Ls8csfgcK6HLBaNiKnD2/view?usp=sharing"
         className="mb-[25px] mt-[25px]  xs:py-[15px] xs:px-[22px] lg:py-[12px] lg:px-[32px] bg-transparent  border-white border-[2px] hover:bg-white hover:border-black hover:text-black text-white font-baloo font-bold text-[17px]"
       >
         download resume

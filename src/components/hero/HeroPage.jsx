@@ -7,6 +7,7 @@ import ArrowDown from "./components/arrowDown";
 function HeroPage() {
   return (
     <div
+      id="HOME"
       style={{
         backgroundImage: `url(${HeroBgImg})`,
         backgroundPosition: `center`,

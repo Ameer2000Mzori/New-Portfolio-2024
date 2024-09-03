@@ -9,26 +9,26 @@ export const NavData = [
     id: 1,
     lebal: "Home",
     icon: HomeIcon,
-    path: "/",
+    path: "#HOME",
   },
 
   {
     id: 2,
     lebal: "Expertise",
     icon: Expertise,
-    path: "/",
+    path: "#EXPERTISE",
   },
   {
     id: 3,
     lebal: "Projects",
     icon: Projects,
-    path: "/",
+    path: "#PROJECTS",
   },
 
   {
     id: 4,
     lebal: "Contact",
     icon: Contact,
-    path: "/",
+    path: "#CONTACT",
   },
 ];

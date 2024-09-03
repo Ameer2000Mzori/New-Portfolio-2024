@@ -2,7 +2,10 @@ import React from "react";
 
 export default function FormPage() {
   return (
-    <div className="mt-[64px] flex flex-col text-center items-center justify-center pb-[64px]">
+    <div
+      id="CONTACT"
+      className="mt-[64px] flex flex-col text-center items-center justify-center pb-[64px]"
+    >
       <div>
         <h1 className="text-[30px] leading-[42px] font-baloo text-textColors font-bold ">
           Contact me

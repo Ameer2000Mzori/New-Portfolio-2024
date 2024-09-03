@@ -4,6 +4,7 @@ import StatsPage from "./components/stats/statsPage.jsx";
 import ProjectsPage from "./components/projects_blogs/projects.jsx";
 import ConnectPage from "./components/connect_page/ConnectPage.jsx";
 import FormPage from "./components/form/form.jsx";
+import FooterPage from "./components/footer/footer.jsx";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <ProjectsPage />
       <ConnectPage />
       <FormPage />
+      <FooterPage />
     </div>
   );
 }
