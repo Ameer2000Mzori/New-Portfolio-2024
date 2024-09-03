@@ -1,7 +1,9 @@
-import ExpertisePage from "./components/expertise/expertise.jsx";
 import HeroPage from "./components/hero/HeroPage.jsx";
-import ProjectsPage from "./components/projects_blogs/projects.jsx";
+import ExpertisePage from "./components/expertise/expertise.jsx";
 import StatsPage from "./components/stats/statsPage.jsx";
+import ProjectsPage from "./components/projects_blogs/projects.jsx";
+import ConnectPage from "./components/connect_page/ConnectPage.jsx";
+
 export default function App() {
   return (
     <div className="bg-darkBgColor overflow-hidden">
@@ -9,6 +11,7 @@ export default function App() {
       <ExpertisePage />
       <StatsPage />
       <ProjectsPage />
+      <ConnectPage />
     </div>
   );
 }
