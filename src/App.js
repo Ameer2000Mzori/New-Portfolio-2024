@@ -3,15 +3,17 @@ import ExpertisePage from "./components/expertise/expertise.jsx";
 import StatsPage from "./components/stats/statsPage.jsx";
 import ProjectsPage from "./components/projects_blogs/projects.jsx";
 import ConnectPage from "./components/connect_page/ConnectPage.jsx";
+import FormPage from "./components/form/form.jsx";
 
 export default function App() {
   return (
-    <div className="bg-darkBgColor overflow-hidden">
+    <div className="bg-darkBgColor overflow-hidden ">
       <HeroPage />
       <ExpertisePage />
       <StatsPage />
       <ProjectsPage />
       <ConnectPage />
+      <FormPage />
     </div>
   );
 }

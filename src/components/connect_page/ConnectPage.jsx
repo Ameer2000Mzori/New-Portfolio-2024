@@ -7,14 +7,14 @@ function ConnectPage() {
       <div className=" lg:w-[30%] w-[70%] h-[80%]">
         <img src={connectData.img} alt="" />
       </div>
-      <div className=" lg:w-[30%] w-[70%] h-[80%]">
+      <div className=" lg:w-[30%] flex flex-col text-center items-center justify-center w-[100%] h-[80%]">
         <h1 className=" lg:text-[28px] text-[18px] font-baloo leading-[48px] font-bold text-upperTitleColor">
           {connectData.title}
         </h1>
-        <h1 className="lg:text-[16px] text-[13px] font-baloo leading-[27px] font-bold text-textColors">
+        <h1 className="lg:text-[16px] w-[90%] text-[13px] font-baloo  font-bold text-textColors">
           {connectData.describe}
         </h1>
-        <p className="lg:text-[18px] text-[14px] font-baloo leading-[27px] font-bold text-textColors">
+        <p className="lg:text-[18px] text-[14px] font-baloo w-[90%] font-bold text-textColors">
           {connectData.letsConnectText}
         </p>
         <a

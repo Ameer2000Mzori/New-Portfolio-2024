@@ -8,6 +8,7 @@ export default function ProjectsPage() {
 
   return (
     <div className="mt-[32px]  mb-[64px] flex flex-col text-center items-center justify-center">
+      <div className="w-[60%] h-[1px] bg-borderBetweenColors mt-[15px] mb-[35px]"></div>
       <div className=" mb-[44px]">
         <h1 className="mb-[16px] text-upperTitleColor leading-[28px] text-[18px] font-bold font-baloo">
           {ProjectTitleData[0].title}
@@ -34,7 +35,7 @@ export default function ProjectsPage() {
                   setIsSelected(true);
                 }
               }}
-              className="w-[330px] hover:drop-shadow-xl cursor-pointer  rounded-[4px] bg-cardsBgColors  h-[600px] pb-[15px]  text-textColors flex flex-col text-start items-start justify-start gap-[16px]"
+              className="w-[330px] hover:drop-shadow-xl cursor-pointer  rounded-[4px] bg-cardsBgColors  h-[600px] pb-[15px]  text-textColors flex flex-col text-start items-start justify-between gap-[16px]"
             >
               <img
                 src={data.img}
@@ -100,6 +101,8 @@ export default function ProjectsPage() {
       >
         More Projects
       </a>
+
+      <div className="w-[60%] h-[1px] bg-borderBetweenColors mt-[35px] mb-[35px]"></div>
       {isSelected && (
         <SelectedProject
           setIsSelectedProject={setIsSelected}

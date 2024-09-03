@@ -11,6 +11,7 @@ module.exports = {
         footerBgColor: "#1C1917",
         bordersColors: "#191919",
         darkBgColor: "#242424",
+        borderBetweenColors: "#3D3D3D",
         upperTitleColor: "#B3B3B3",
         textColors: "#FFFFFF",
         buttonsBgColor: "#FF1D48",

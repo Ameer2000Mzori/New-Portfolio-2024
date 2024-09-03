@@ -24,7 +24,7 @@ function Navbar() {
             >
               <li
                 className={`flex flex-col tex-center items-center px-[15px] ${
-                  el.id !== 5 ? "border-r border-textColors" : ""
+                  el.id !== 4 ? "border-r border-textColors" : ""
                 }`}
               >
                 <img

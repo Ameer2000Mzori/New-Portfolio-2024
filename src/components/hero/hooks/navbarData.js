@@ -1,7 +1,7 @@
 import HomeIcon from "../../../assets/icons/home.png";
-import Stats from "../../../assets/icons/stats.png";
 import Expertise from "../../../assets/icons/expertise.png";
 import Projects from "../../../assets/icons/projects.png";
+// import Stats from "../../../assets/icons/stats.png";
 // import Contributions from "../../../assets/icons/contributions.png";
 import Contact from "../../../assets/icons/contact.png";
 export const NavData = [
@@ -11,27 +11,22 @@ export const NavData = [
     icon: HomeIcon,
     path: "/",
   },
+
   {
     id: 2,
-    lebal: "Stats",
-    icon: Stats,
-    path: "/",
-  },
-  {
-    id: 3,
     lebal: "Expertise",
     icon: Expertise,
     path: "/",
   },
   {
-    id: 4,
+    id: 3,
     lebal: "Projects",
     icon: Projects,
     path: "/",
   },
 
   {
-    id: 5,
+    id: 4,
     lebal: "Contact",
     icon: Contact,
     path: "/",
