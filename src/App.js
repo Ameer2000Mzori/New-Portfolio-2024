@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import HeroPage from "./components/hero/HeroPage.jsx";
+import ExpertisePage from "./components/expertise/expertise.jsx";
+import StatsPage from "./components/stats/statsPage.jsx";
+import ProjectsPage from "./components/projects_blogs/projects.jsx";
+import ConnectPage from "./components/connect_page/ConnectPage.jsx";
+import FormPage from "./components/form/form.jsx";
+import FooterPage from "./components/footer/footer.jsx";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-darkBgColor overflow-hidden ">
+      <HeroPage />
+      <ExpertisePage />
+      <StatsPage />
+      <ProjectsPage />
+      <ConnectPage />
+      <FormPage />
+      <FooterPage />
     </div>
   );
 }
-
-export default App;
