@@ -92,6 +92,14 @@ export default function ProjectsPage() {
           );
         })}
       </div>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        className="mt-[45px] font-baloo underline text-textColors text-[28px] hover:text-slate-500 leading-[24px] font-bold"
+        href="https://github.com/Ameer2000Mzori"
+      >
+        More Projects
+      </a>
       {isSelected && (
         <SelectedProject
           setIsSelectedProject={setIsSelected}
