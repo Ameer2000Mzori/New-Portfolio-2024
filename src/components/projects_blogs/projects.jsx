@@ -34,7 +34,7 @@ export default function ProjectsPage() {
                   setIsSelected(true);
                 }
               }}
-              className="w-[330px] hover:drop-shadow-xl cursor-pointer  rounded-[4px] bg-cardsBgColors h-auto pb-[15px] h-min-[550px] text-textColors flex flex-col text-start items-start justify-start gap-[16px]"
+              className="w-[330px] hover:drop-shadow-xl cursor-pointer  rounded-[4px] bg-cardsBgColors  h-[600px] pb-[15px]  text-textColors flex flex-col text-start items-start justify-start gap-[16px]"
             >
               <img
                 src={data.img}
