@@ -20,6 +20,7 @@ export default function ProjectsPage() {
         {projectsData.map((data, i) => {
           return (
             <div
+              key={i}
               onClick={() => {
                 const { title, description, img, url, technologies } = data;
                 setSelectedProjectData({
@@ -29,7 +30,7 @@ export default function ProjectsPage() {
                   url,
                   technologies,
                 });
-                if (!setProWasSelected) {
+                if (!proWasSelected) {
                   setIsSelected(true);
                 }
               }}
@@ -57,7 +58,9 @@ export default function ProjectsPage() {
               </div>
               <div className=" gap-[15px] flex flex-row text-center items-center justify-between pr-[15px] pl-[15px] w-[100%] h-[40px]">
                 <a
-                  onClick={() => setProWasSelected(true)}
+                  onClick={() => {
+                    setProWasSelected(true);
+                  }}
                   key={i}
                   href={data.url}
                   target="_blank"

@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function SelectedProject({ projectData, setIsSelectedProject }) {
-  console.log("here", projectData);
   return (
     <div className=" fixed bg-[#00000062] h-[100%] flex flex-col  text-start items-center justify-center  top-[0%] left-[0%] w-[100%]">
       <div className="bg-darkBgColor relative  pb-[15px] lg:h-[90%] h-[95%]  lg:w-[75%] w-[90%]">
